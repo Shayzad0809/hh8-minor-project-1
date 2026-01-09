@@ -1,0 +1,41 @@
+Script started on Fri Jan  9 23:07:47 2026
+[1m[7m%[27m[1m[0m                                                                                        ]7;file://shayzad-MacBook-Pro.local/Users/mirashkan/Desktop/hh8-minor-project-1[0m[27m[24m[Jmirashkan@shayzad-MacBook-Pro hh8-minor-project-1 % [K[?2004h[7mpython src/advanced_port_scanner.py [7ms[7mcanme.nmap.org -p 22,80 --csv demo.csv[27m[K
+[7mls -la *.csv[27m[K
+[7mcat README.md | head -15[27m[K
+[K[4A[52C[27mp[27my[27mt[27mh[27mo[27mn[27m [27ms[27mr[27mc[27m/[27ma[27md[27mv[27ma[27mn[27mc[27me[27md[27m_[27mp[27mo[27mr[27mt[27m_[27ms[27mc[27ma[27mn[27mn[27me[27mr[27m.[27mp[27my[27m s[27mc[27ma[27mn[27mm[27me[27m.[27mn[27mm[27ma[27mp[27m.[27mo[27mr[27mg[27m [27m-[27mp[27m [27m2[27m2[27m,[27m8[27m0[27m [27m-[27m-[27mc[27ms[27mv[27m [27md[27me[27mm[27mo[27m.[27mc[27ms[27mv[1B[27ml[27ms[27m [27m-[27ml[27ma[27m [27m*[27m.[27mc[27ms[27mv[1B[27mc[27ma[27mt[27m [27mR[27mE[27mA[27mD[27mM[27mE[27m.[27mm[27md[27m [27m|[27m [27mh[27me[27ma[27md[27m [27m-[27m1[27m5[1B[K[?2004l
+[+] Scanning scanme.nmap.org:22,80...
+[DEBUG] Hosts found: ['45.33.32.156']
+
+==========================================================================================
+SCAN RESULTS - Banner Grabbing Complete (sorted by port)
+==========================================================================================
+45.33.32.156:   22 open    ssh          OpenSSH              6.6.1p1 Ubuntu 2ubuntu2.13 | SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13
+45.33.32.156:   80 open    http         Apache httpd         2.4.7 | Apache/2.4.7 (Ubuntu)
+[+] Asset inventory saved: demo.csv (2 services)
+-rw-r--r--  1 mirashkan  staff  266  9 Jan 23:08 demo.csv
+-rw-r--r--  1 mirashkan  staff  452  9 Jan 22:44 results.csv
+# hh8-minor-project-1: Advanced Port Scanner
+
+Short Description: Banner grabbing - service versions detection
+Brief: Nmap + Python scanner exports CSV asset inventory
+
+Tools Used:
+- Nmap (brew install nmap) [web:1]
+- Python 3 + python-nmap [web:15] 
+- macOS Terminal
+
+How to Run:
+git clone https://github.com/Shayzad0809/hh8-minor-project-1.git
+cd hh8-minor-project-1
+python3 -m venv venv
+source venv/bin/activate  
+[1m[7m%[27m[1m[0m                                                                                        ]7;file://shayzad-MacBook-Pro.local/Users/mirashkan/Desktop/hh8-minor-project-1[0m[27m[24m[Jmirashkan@shayzad-MacBook-Pro hh8-minor-project-1 % [K[?2004h[7mexit[27m
+[K[A[52C[27me[27mx[27mi[27mt[1B[K[?2004l
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...none found.
+
+Script done on Fri Jan  9 23:08:58 2026
