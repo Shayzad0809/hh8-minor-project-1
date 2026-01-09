@@ -1,0 +1,6 @@
+host,port,state,service,product,version,extrainfo,banner
+45.33.32.156,22,open,ssh,OpenSSH,6.6.1p1 Ubuntu 2ubuntu2.13,Ubuntu Linux; protocol 2.0,SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13
+45.33.32.156,80,open,http,Apache httpd,2.4.7,(Ubuntu),Apache/2.4.7 (Ubuntu)
+45.33.32.156,443,closed,https,,,,
+45.33.32.156,9929,open,nping-echo,Nping echo,,,"\x01\x01\x00\x18\xEB\x98\xF2\xDBia7q\x00\x00\x00\x00\x04\x19\x1
+5\xB1x*\xCE\x10\xD0\xEB\x89\x81\xA8H"
