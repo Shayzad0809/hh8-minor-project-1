@@ -31,17 +31,3 @@ What Learned:
 
 Asset Inventory: Import CSV → track services/versions/patches
 Legal: scanme.nmap.org = official test target [web:34]
-
-
-
-
-
-
-
-
-
-
-
-
-
-scann nmp 
